@@ -1,0 +1,45 @@
+.Card-Container
+{
+    width: 100%;
+    padding: 20px;
+    /* background-color: cadetblue; */
+}
+.Card-Content
+{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    /* background-color: rgb(92, 58, 15); */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #333; */
+    box-shadow: 0px 0px 10px grey;
+}
+
+.Card-img
+{
+    width: 200px;
+    height: 250px;
+}
+
+.Card-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.Card-Details
+{
+    padding: 10px ;
+    width: 50%;
+    border: 1px solid #333;
+}
+
+.Card-para
+{
+    padding:20px 0px;
+}

@@ -1,0 +1,13 @@
+.Footer-container
+{
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+.Footer-content
+{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color:cadetblue;
+}

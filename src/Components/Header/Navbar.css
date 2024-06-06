@@ -1,0 +1,75 @@
+nav
+{
+    width: 100%;
+    position: relative;
+}
+
+.ulist
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transition: 0.4s all ease-in-out;
+}
+.ulist li
+{
+    margin-right: 15px;
+}
+
+.navlink
+{
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.navlink:hover{
+    color: greenyellow;
+}
+
+.res-nav
+{
+    position: relative;
+}
+.res-icon
+{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-size: 25px;
+    z-index: 1;
+    cursor: pointer;
+    color: aliceblue;
+    display: none;
+}
+
+@media (max-width:700px) {
+    .ulist
+    {
+            width: 100%;
+            position: absolute;
+            top:0%;
+            right: -100%;
+            background-color: rgba(0, 0, 0, 0.692);
+            padding: 20px;
+            z-index: 1;
+    }
+    .navbar .ulist
+    {
+        flex-direction: column;
+    }
+    .navbar .ulist li
+    {
+        margin-top: 20px;
+    }
+    .close
+    {
+        right: 0%
+    }
+    .res-icon
+    {
+        display: block;
+    }
+
+}
